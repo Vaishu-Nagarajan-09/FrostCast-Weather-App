@@ -27,7 +27,7 @@ function App() {
     try {
       const response = await axios.get(autoURL + city);
       const res = response.data;
-      console.log(res);
+  
       const cityData = res.map((data) => {
         return `${data.name},${data.region},${data.country}`;
       })
@@ -39,7 +39,6 @@ function App() {
   }
 
   const handleSelectCity = (city) => {
-    console.log("clicked city", city)
     setCitySelect(city);
     fetchWeatherAPIURL(city);
     setCitySuggestion([]);
@@ -49,13 +48,9 @@ function App() {
     try {
       const response = await axios.get(weatherAPI(city));
       const resp = response.data;
-      // console.log(resp);
       setCurrentWeather(resp.current);
       setForecastWeather(resp.forecast);
       setLocation(resp.location);
-      console.log("current", resp.current);
-      console.log('forecast', resp.forecast);
-      console.log('location', resp.location)
     } catch (e) {
       console.log("Weather Api error", e)
     }
