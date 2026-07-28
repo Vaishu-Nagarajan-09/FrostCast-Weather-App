@@ -1,0 +1,67 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.app-container{
+    background-image: url('./assets/weather-img-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px); 
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: white;
+
+}
+
+.card .card-img{
+    filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+}
+#glass-search{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px); 
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: white;
+}
+#glass-search::placeholder{
+    color: white;
+}
+.glass-accordion .accordion-item{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color:white;
+}
+.glass-accordion .accordion-button{
+    background: transparent !important;
+    color: white !important;
+    box-shadow: none !important;
+    filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+
+}
+.glass-accordion .accordion-button:not(.collapsed){
+    background: rgba(255 255 255 0.05);
+}
+
+.hour-container{
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
