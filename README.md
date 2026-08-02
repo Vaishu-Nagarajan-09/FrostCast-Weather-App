@@ -18,7 +18,7 @@ The project focuses on implementing frontend development concepts including API 
 
 ### Weather ForeCast Dashboard
 
-![Fostcast weather](weatherApp/src/Screenshots/ForeCastWeather.png)
+![24 - Hour Fostcast](weatherApp/src/Screenshots/ForeCastWeather.png)
 
 
 ## Installation and Setup:
@@ -47,7 +47,8 @@ git clone https://github.com/Vaishu-Nagarajan-09/FrostCast-Weather-App.git
 - Bootstrap
 
 ### API
-- Weather API Integration
+- OpenWeather API
+- Axios
 
 ### Tools
 - Git
@@ -56,13 +57,13 @@ git clone https://github.com/Vaishu-Nagarajan-09/FrostCast-Weather-App.git
 
 ## Features:
 - Search weather by city
-- Current temperature, humidity, and wind speed
-- 24-hour weather forecast
-- Responsive user interface
-- API integration with Axios
+- Display current temperature, humidity, and wind speed
+- View a 24-hour weather forecast
+- Responsive design for desktop and mobile
+- Real-time weather data using API integration
 
 ## Live Demo:
-https://frostcast-weather.netlify.app/
+[FrostCast](https://frostcast-weather.netlify.app/)
 
 ## Author:
 Vaishnavi N N
