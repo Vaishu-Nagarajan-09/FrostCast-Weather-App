@@ -14,11 +14,11 @@ The project focuses on implementing frontend development concepts including API 
 
 ### Weather Current Dashboard
 
-![Current weather](weatherApp/src/Screenshots/Current Weather.png)
+![Current weather](weatherApp/src/Screenshots/CurrentWeather.png)
 
 ### Weather ForeCast Dashboard
 
-![Fostcast weather](weatherApp/src/Screenshots/ForeCast Weather.png)
+![Fostcast weather](weatherApp/src/Screenshots/ForeCastWeather.png)
 
 
 ## Installation and Setup:
